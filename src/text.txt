@@ -1,0 +1,13 @@
+
+user-select: none;
+overflow: hidden;
+transition: 0.2s;
+visibility: visible;
+transition: 0.5s;
+.active .Container {
+-webkit-filter: blur(2px);
+filter: blur(2px);
+}
+
+
+working: backdrop-filter: blur(10px);
